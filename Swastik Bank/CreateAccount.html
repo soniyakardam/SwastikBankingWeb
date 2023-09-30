@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Create Account From</title>
+</head>
+<body>
+    <div class="main">
+          <div class="register">
+              <h1>APPLICATION FROM NO. 6211</h1>
+              <h3>Page 1 : Personal Detail</h3><br>
+             <form id="register" method="post">
+                <!-- <h3>Page 1: Personal Details</h3> -->
+                <label>Custumer Name :</label>
+                 <input  required type="text" placeholder="Enter Your name" name="name" id="name"><br><br>
+
+                 <label>Father's Name  :</label>
+                 <input  required type="text" placeholder="Enter Your fname" name="fname" id="fname"><br><br>
+
+                 <label>Mother's Name  :</label>
+                 <input  required type="text" placeholder="Enter Your mname" name="mname" id="mname"><br><br>
+
+                 <label>Date Of Birth:</label>
+                 <input required type="date" name="date" id="date" /><br><br>
+
+                 <label>Gender :</label>
+                 <input required checked type="radio" id="male" name="gender" />
+                 <label for="male">Male</label>
+                 <input type="radio" id="female" name="gender" />
+                 <label for="female">Female</label><br><br>
+
+                 <label>Email ID : </label>
+                 <input  required type="email" placeholder="Enter Email" name="email" id="email" /><br><br>
+
+                 <label>Contact No. : </label>
+                 <input required type="text" maxlength="10" placeholder="Enter 10-digit Mobile Number" name="contact" id="contact" /><br><br>
+
+                 <label>Marital Status :</label>
+                 <input required checked type="radio" id="maried" name="mariral" />
+                 <label for="maried">Maried</label>
+                 <input type="radio" id="unmaried" name="mariral" />
+                 <label for="unmaried">Unmaried</label><br><br>
+
+                 <!-- <label>Address :</label>
+                 <textarea required name="address"  id="address"  placeholder="Enter Address" ></textarea> -->
+
+                 <label>City :</label>
+                 <input  required type="text" placeholder="Enter Your City" name="city" id="city"><br><br>
+
+                 <label>Pin Code :</label>
+                 <input  required type="text" placeholder="Enter Your Pin code" name="pincode" id="pincode"><br><br>
+
+                 <label>Status :</label>
+                 <input  required type="text" placeholder="Enter Your Status" name="status" id="status"><br><br>
+
+                 <input type="submit" id="sub" value="Next" />
+                 <input type="reset" id="clear" value="Clear" />
+             </form>
+          </div><!---end register--------->
+    </div><!-------end main------>
+</body>
+</html>

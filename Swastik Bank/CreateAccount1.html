@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="register">
+            <h4>FROM NO. 6211</h4>
+            <h3>Page 2 : Personal Detail</h3><br>
+           <form id="register" method="get">
+                 <label> Religion  :</label>
+                 <select name="religion" id="religion">
+                    <option value="Religion">Religion</option>
+                    <option value="Hindu">Hindu</option>                    
+                    <option  value="Muslim">Muslim</option>                    
+                    <option value="Christians">Christians</option>   
+                    <option value="Sikhs">Sikhs</option>   
+                    <option value="Jain">Jain</option>  
+                    <option value="Other">Other</option>                    
+                </select><br><br>
+
+                <label>Educational <br>Qualification  :</label>
+                <select name="educationalqualification" id="educationalqualification">
+                    <option value="educationalqualification">Educational Qualification</option>
+                    <option value="Graduation">Graduation</option>   
+                    <option value="Post Graduation">Post Graduation</option> 
+                    <option value="Other">Other</option>                    
+                </select><br><br>
+
+                <label>Occupation  :</label>
+                <select name="occupation" id="occupation">
+                    <option value="Occupation">Occupation</option>
+                    <option value="Student">Student</option>                    
+                    <option  value="Employee">Employee</option>                    
+                    <option value="Self Employee">Self Employee</option>   
+                    <option value="Business">Business</option>   
+                    <option value="Null">Null</option>                    
+                </select><br><br>
+
+                <label>PAN Number :</label>
+                <input  required type="text" placeholder="Enter Your PAN Number" name="pan" id="pan"><br><br>
+
+                <label>Aadhar Number :</label>
+                <input required type="text" maxlength="12" placeholder="Enter 12-digit Aadhar Number" name="aadhar" id="aadhar" /><br><br>
+
+                <label>Senior Citizen :</label>
+                 <input required checked type="radio" id="yes" name="yes" />
+                 <label for="yes">Yes</label>
+                 <input type="radio" id="no" name="no" />
+                 <label for="no">No</label><br><br>
+
+                 <label id="add">Local Address :</label>
+                 <textarea name="address" id="address" cols="30" rows="2" placeholder="Enter Address"></textarea><br><br>
+
+                 <label id="addd">Parmanent Address :</label>  
+                 <textarea name="addresss" id="addresss" cols="30" rows="2" placeholder="Enter Address"></textarea><br><br>
+
+                 <input type="submit" id="sub" value="Next" />
+                 <input type="reset" id="clear" value="Clear" />
+            </form>
+        </div> 
+    </div>       
+</body>
+</html>
